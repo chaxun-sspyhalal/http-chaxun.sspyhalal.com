@@ -1,0 +1,120 @@
+@charset "gb2312";
+*{ margin:0; padding:0}
+body { background:url(bg.jpg) no-repeat; background-size:100%;font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000;}
+a, a:visited, a:active { color:#1a5d96; text-decoration:none;}
+a:hover { color:#0089fe; text-decoration:none;}
+li,dd { list-style:none;}
+img { border:none;}
+span,em,i { font-style:normal; font-family:Arial, Helvetica, sans-serif;}
+li a { font-family:Arial, Helvetica, sans-serif}
+#main-div{
+width:100%;
+height:auto;
+overflow:hidden;
+margin:auto;
+}
+#head { 
+height:120px;
+width:100%; 
+margin:0 auto;}
+#nhead { 
+height:120px;
+width:100%; 
+margin:0 auto;}
+#body1{
+width:100%;
+max-width:1002px;
+height:auto;
+margin:0 auto;
+background:url(cbg2.html) no-repeat center top;
+}
+#body1-c{
+width:98%;
+max-width:505px;
+height:auto;
+margin:0 auto;
+}
+#body1-c4{
+width:100%;
+max-width:505px;
+height:auto;
+overflow:hidden;
+min-height:80px;
+padding-top:30px;
+background: #d1dbe5;
+position:relative;
+}
+#body1-c5{
+width:100%;
+max-width:1000px;
+height:auto;
+overflow:hidden;
+padding-top:0px;
+position:relative;
+margin:0 auto
+}
+
+.seabox{width:1000px; height:714px; overflow:hidden; margin:0 auto; position:relative; margin-top:30px;}
+.tpic{width:135px; height:195px; position:absolute; top:116px; left:180px; z-index:10}
+.tpic img{width:135px; height:195px; }
+.tt{width:275px; height:43px; position:absolute; top:88px; left:665px; text-align:left; font-size:18px; line-height:43px; z-index:10}
+.t1{width:275px; height:43px; position:absolute; top:155px; left:616px; text-align:left; font-size:18px; line-height:43px; z-index:10}
+.t2{width:275px; height:43px; position:absolute; top:215px; left:685px; text-align:left; font-size:18px; line-height:43px; z-index:10}
+.t3{width:275px; height:43px; position:absolute; top:276px; left:660px; text-align:left; font-size:18px; line-height:43px; z-index:10}
+.t4{width:275px; height:43px; position:absolute; top:340px; left:728px; text-align:left; font-size:18px; line-height:43px; z-index:10}
+.t5{width:275px; height:43px; position:absolute; top:404px; left:688px; text-align:left; font-size:18px; line-height:43px; z-index:10}
+.t6{width:270px; height:36px; position:absolute; top:540px; left:105px; text-align:center; font-size:26px; line-height:36px; z-index:10}
+.t7{width:242px; height:51px; position:absolute; top:632px; left:150px; text-align:left; font-size:24px; line-height:51px; z-index:10}
+
+.t8{width:170px; position:absolute; top:470px; left:746px; text-align:left; font-size:18px; line-height:51px; z-index:10}
+.t8 img{ width:170px; height:auto; transform: rotate(25deg);}
+.t91{width:101px; height:26px; position:absolute; top:594px; left:660px; text-align:center; font-size:18px; line-height:26px; z-index:10}
+.t92{width:59px; height:26px; position:absolute; top:594px; left:788px; text-align:center; font-size:18px; line-height:26px; z-index:10}
+.t93{width:59px; height:26px; position:absolute; top:594px; left:870px; text-align:center; font-size:18px; line-height:26px; z-index:10}
+
+
+#body1-c1 {width:100%; height:77px;  line-height:41px;background:url(c1.jpg) no-repeat; color:#fff; font-size:22px; text-align:center;}
+
+#body1-c5 img{width:100%; height:auto;}
+#body1-c3{
+height:auto;
+overflow:hidden;
+line-height:22px;
+padding:5px;
+color:#FFFFFF;
+text-align:center;
+background:#033f63;
+
+}
+#body1-c03{
+
+width:100%;
+
+height:32px;
+
+line-height:32px;
+
+color:#FFFFFF;
+
+text-align:center;
+
+background:url(c02.html) no-repeat;
+
+}
+
+ul,li{ margin:0; padding:0; list-style:none; clear:both;}
+ul{ margin:0 auto;}
+.bl-form .label{ float:left; width:120px; text-align:right; padding-top:10px; line-height:28px;}
+.bl-form .controls{ padding-top:10px; float:left;margin-left:10px;}
+.bl-form .title{ width:286px; text-indent:8px; height:25px; line-height:21px; border:1px #A6B7CB solid; float:left; margin-top: 17px;}
+.bl-form .search{ padding:4px;}
+.bl-form li{padding-bottom:10px; overflow:hidden;}
+@media screen and (max-width: 640px) { 
+#nhead { 
+height:20px;
+width:100%; 
+margin:0 auto;}
+.bl-form .label{ float:left; width:60px; text-align:right; padding-top:10px; }
+.bl-form .controls{ padding-top:10px; float:left;margin-left:10px;}
+.bl-form .title{ width:236px; text-indent:8px; height:25px; line-height:21px; border:1px #A6B7CB solid; float:left;}
+} 
